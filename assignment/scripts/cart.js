@@ -59,15 +59,3 @@ const maxItems = 5
 //  - return `false` if the basket contains *less* than max number of items
 //  - return `true` otherwise (equal or more than maxItems)
 //
-function isFull(full){
-    let sum = 0
-    for (i=0; i<full.length; i++){
-        let sum = sum + full[i];
-    }
-    if (full < maxItems){
-        return true;
-    } else {
-        return false;
-    }
-}
-isFull(basket);
