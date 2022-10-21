@@ -41,11 +41,12 @@ function listItems (list) {
 //- Create a function called `empty`. It should: DONE
 //  - reset the `basket` to an empty array
 //
-function emptyBasket(delist) {
-    delist = ['empty'];
-    console.log(delist);
+function emptyBasket(basket) {
+    basket = [];
+    console.log('basket emptied');
 }
 emptyBasket(basket);
+console.log(basket);
 //
 //DONE
 
